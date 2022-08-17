@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  
+  body{
+    background: url(./image.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  header .max{
+    display: flex;
+    justify-content: center;
+  }
+  
+  header ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+  }
+  
+  header ul li a{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4581B7;
+  
+  }
+  
+  header ul li a:hover{
+    color: rgb(0, 229, 255);
+  }
+  header .most{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  section .asos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  section .asos .bosh1{
+    width: 60%;
+    background: gold;
+  }
+  
+  section .asos .bosh2{
+    width: 30%;
+    background: rgb(255, 174, 0);
+  }
+  
+  footer .menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: rgb(4, 0, 255);
+  }

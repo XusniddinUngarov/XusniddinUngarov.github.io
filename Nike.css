@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+body{
+    background: url(./Chorboq_-_Osmon_bilan_Er_orasida_-_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-image: url(./header_bg_image\ 1.jpg);
+    background-size: cover;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 654px;
+
+}
+
+header .logo{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: blue;
+    
+
+}
+
+header nav ul a{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    padding: 17px 27px;
+    color: rgb(255, 0, 0);
+    display: block;
+
+}
+
+header nav ul li a:hover{
+    background: #515151;
+    color: #ffff;
+
+}
+
+header h1{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+    
+color: #CB0A15;
+margin-top: 215px;
+
+}
+
+header p{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #515151;
+padding-bottom: 275px;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main .katta{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+main .katta .asos .orta{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+  }
+  
+body{
+    background: url(./Chorboq_-_Osmon_bilan_Er_orasida_-_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  header{
+    background: url(../trening-po-rabote-s-klientami.png);
+    background-size: cover;
+    background-position: center, center;
+    height: 600px;
+  
+  }
+  
+  header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: bisque;
+    padding: 17px, 0px;
+  }
+  
+  header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  
+  }
+  
+  .logo{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 140px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+  /* identical to box height */
+  
+  
+  /* Oran ge */
+  
+   color: #0800ff;
+  
+  }
+  
+  header nav ul li a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  
+  color: rgb(0, 208, 255);
+  }
+  
+  section{
+    padding: 36px 0 50px;
+  }
+  
+  section .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+  
+  }
+  
+  section .menu .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid blueviolet;
+    height: 186px;
+    width: 255px;
+  
+  }
+  
+  section /menu .box hr{
+    color: red;
+    width: 200%;
+  
+  }
+  
+main .katta{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+main .katta .asos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .katta .asos .menu1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+footer{
+    background: rgb(255, 247, 0);
+}
+
+footer .katta{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

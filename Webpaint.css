@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  
+  body{
+    background: url(./image.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  header{
+    background: rgb(3, 20, 253);
+    padding: 100px;
+  }
+  
+  header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 36px 0;
+  }
+  
+  header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+  }
+  
+  header nav ul li a{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #050505;
+  
+  }
+  
+  header nav ul li a:hover{
+    color: rgb(255, 0, 0);
+  }
+  header h1{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 72px;
+  
+  color: #03f4f8;
+  }
+  
+  header h1 span{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 72px;
+  
+  color: #eefe07;
+  }
+  
+  header p{
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  
+  color: #fc9404;
+  text-align: center;
+  }
+  
+  header button{
+    font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ff08d2;
+  background-color: blueviolet;
+  border-radius: 6px;
+  padding: 13px 37px;
+  display: block;
+  margin: 100px auto;
+  }
+  
+  section.fi{
+    color: #fa0000;
+    font-size: 70px;
+  }
+  
+  section .bosh{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  section .bosh .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  main nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 36px 0;
+  }
+  
+  main nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+  }
+  
+  main nav ul li a{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fb0606;
+  background-color: blueviolet;
+  border-radius: 6px;
+  padding: 13px 37px;
+  display: block;
+  margin: 100px auto;
+  }
+  
+  main nav ul li a:hover{
+    color: chartreuse;
+  }
+  
+  main h2{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #616161;
+  }
+  
+  main p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #616161;
+  
+  }
+  
+  main .mainningboshi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main .mainningboshi .asos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+  }
+  footer{
+    width: 100%;
+    background: #eefe07;
+  }
+  
+  footer .footerningboshi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer .footerningboshi .footerningozi{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  footer .footerningboshi .oxiri{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  footer .footerningtugashi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #03f4f8
+  }

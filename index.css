@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: url(./Chorboq_-_Osmon_bilan_Er_orasida_-_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.katta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.katta .menu{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
